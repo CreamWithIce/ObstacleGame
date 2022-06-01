@@ -12,7 +12,6 @@ public class Win : MonoBehaviour
     public Transform winTransform;
     public float size = 2f;
     bool win;
-    public GameObject GoalsToKeepForPersistence;
     public Timer time;
 
     [Header("UI Stuff")]
