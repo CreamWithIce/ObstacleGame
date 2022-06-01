@@ -9,8 +9,7 @@ public class PauseOptions : MonoBehaviour
     PauseMenu pause;
 
     void Start(){
-        pause = FindObjectOfType<PauseMenu>();
-        pause.paused = false;
+        pause = FindObjectOfType<PauseMenu>(); // Finds the object the pause menu script is attached to
     }
 
     // Will send you back to the scene at build index 0 and resets time scale
